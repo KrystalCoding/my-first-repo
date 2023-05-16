@@ -13,11 +13,15 @@ body {
     height: 100vh;
 
 
-    background: url(../images/UNDEFINED.jpg) no-repeat bottom right fixed;
+    background: url("../images/compressed.jpg") no-repeat bottom right fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
@@ -30,4 +34,43 @@ body {
 .features-container{
 
 
+}
+
+/*Block Dividers*/
+.block-divider{
+    wdth: 75;
+    height: 5px;
+    border: 0;
+}
+
+.blockdivider--green{
+    background-color: #8f7f1c;
+}
+
+.block-divider--short{
+widtch: 35px
+}
+
+
+/*Jumbotron*/
+
+.jumbotron{
+    background-color: transparent;
+}
+
+.jumbotron-header{
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.jumbotron .lead{
+    margin: 25px 0;
+    color: #d5a9dc;
+}
+
+.jumbotron small{
+    font-size: 60%;
+    font-style: italic;
+    color: #d0d0d0;
 }
