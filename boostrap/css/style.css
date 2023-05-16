@@ -22,11 +22,20 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+
+    position: relative;
 }
 
+.opaque-overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
 
 .quotes-container{
-
 
 }
 
@@ -36,7 +45,7 @@ body {
 
 }
 
-/*Block Dividers*/
+/* Block Dividers */
 .block-divider{
     wdth: 75;
     height: 5px;
@@ -52,7 +61,7 @@ widtch: 35px
 }
 
 
-/*Jumbotron*/
+/* Jumbotron */
 
 .jumbotron{
     background-color: transparent;
@@ -73,4 +82,27 @@ widtch: 35px
     font-size: 60%;
     font-style: italic;
     color: #d0d0d0;
+}
+
+
+/* Buttons */
+
+.btn--cta{
+    font-weight: bold;
+    border-readius: 23px;
+    width: 160px;
+}
+
+.btn--lavender{
+    color: white;
+    background-color: #d5a9dc;
+    border-color: #d5a9dc;
+}
+
+.btn--lavender:hover,
+.btn--lavender:active,
+.btn--lavender:focus,
+.btn--lavender:active:focus {
+    background-color: #563a50;
+    border-color: black;
 }
